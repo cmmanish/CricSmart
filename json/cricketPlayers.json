@@ -1,0 +1,142 @@
+{
+  "query": {
+    "count": 1,
+    "created": "2015-03-18T17:48:45Z",
+    "lang": "en-US",
+    "diagnostics": {
+      "cache": {
+        "execution-start-time": "0",
+        "execution-stop-time": "3",
+        "execution-time": "3",
+        "method": "GET",
+        "type": "MEMCACHED",
+        "content": "TABLE.query.yahooapis.com.cricket.players.a7ce3ed3bddab15449e8fa183cab8013"
+      },
+      "url": [
+        {
+          "execution-start-time": "4",
+          "execution-stop-time": "8",
+          "execution-time": "4",
+          "content": "http://sherpa-bcp5903.dht.yahoo.com:4080/YDHTWebService/V1/get/yql.global/store%3A%2F%2FVjX8WD8kcHMQ0YfoKRlqKn"
+        },
+        {
+          "execution-start-time": "12",
+          "execution-stop-time": "41",
+          "execution-time": "29",
+          "content": "http://cricketwebservice/ws/cwsapi/players.php?pids=2962&output=summary"
+        }
+      ],
+      "publiclyCallable": "true",
+      "user-time": "42",
+      "service-time": "36",
+      "build-version": "0.2.65"
+    },
+    "results": {
+      "Player": {
+        "personid": "2962",
+        "PersonalDetails": {
+          "FirstName": "Sachin",
+          "LastName": "Tendulkar",
+          "Gender": "M",
+          "DateOfBirth": "1973-04-24T00:00:00+05:30",
+          "PlaceOfBirth": {
+            "City": "Bombay (now Mumbai), Maharashtra",
+            "CountryCode": "IND"
+          },
+          "Aliases": {
+            "Aliase": [
+              "Tendlya",
+              "Master Blaster"
+            ]
+          },
+          "PlayerThumbImgName": "https://s.yimg.com/qx/cricket/fufp/images/2962_thumb-16-1-2011-c0498d31775b0b23e190716d657724be.jpg",
+          "PlayerLargeImgName": "https://s.yimg.com/qx/cricket/fufp/images/2962_large-16-1-2011-8e505dcd73dd116671b450f7e4ecb19b.jpg"
+        },
+        "Role": "Batsman",
+        "Style": {
+          "Batting": "Right Handed",
+          "Bowling": "Off break"
+        },
+        "Team": [
+          {
+            "active": "no",
+            "adv_gen": "yes",
+            "primary": "yes",
+            "teamid": "4",
+            "content": "India"
+          },
+          {
+            "active": "no",
+            "teamid": "395",
+            "content": "India A"
+          },
+          {
+            "active": "no",
+            "teamid": "399",
+            "content": "India B"
+          },
+          {
+            "active": "no",
+            "teamid": "400",
+            "content": "India Blue"
+          },
+          {
+            "active": "no",
+            "teamid": "401",
+            "content": "Indian Board President's XI"
+          },
+          {
+            "active": "no",
+            "teamid": "417",
+            "content": "India Seniors"
+          },
+          {
+            "active": "no",
+            "teamid": "830",
+            "content": "Rest of India"
+          },
+          {
+            "active": "no",
+            "teamid": "833",
+            "content": "Rest of the World"
+          },
+          {
+            "active": "no",
+            "teamid": "1029",
+            "content": "Wills XI"
+          },
+          {
+            "active": "no",
+            "teamid": "1051",
+            "content": "West Zone"
+          },
+          {
+            "active": "no",
+            "teamid": "1062",
+            "content": "Yorkshire"
+          },
+          {
+            "active": "no",
+            "teamid": "1111",
+            "content": "Mumbai"
+          },
+          {
+            "active": "yes",
+            "teamid": "1198",
+            "content": "Mumbai"
+          },
+          {
+            "active": "yes",
+            "teamid": "1395",
+            "content": "Marylebone Cricket Club"
+          }
+        ],
+        "odibatrank": null,
+        "odibowlrank": null,
+        "testbatrank": null,
+        "testbowlrank": null,
+        "playerteam": "India"
+      }
+    }
+  }
+}

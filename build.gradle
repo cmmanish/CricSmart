@@ -1,0 +1,34 @@
+apply plugin: 'java'
+version = '1.0-FINAL'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'log4j:log4j:1.2.17'
+    compile 'junit:junit:4.11'
+    compile 'org.json:json:20090211'
+    compile 'javax.activation:activation:1.1'
+    compile 'javax.mail:mail:1.4.1'
+    compile 'org.apache.commons:commons-email:1.2'
+    compile 'org.apache.commons:commons-lang3:3.0'
+    compile 'org.seleniumhq.selenium:selenium-java:2.45.0'
+    compile 'org.seleniumhq.selenium:selenium-firefox-driver:2.45.0'
+    compile 'org.seleniumhq.selenium:selenium-chrome-driver:2.45.0'
+    compile 'org.seleniumhq.selenium:selenium-safari-driver:2.45.0'
+    compile 'org.seleniumhq.selenium:selenium-ie-driver:2.45.0'
+    compile 'com.googlecode.json-simple:json-simple:1.1'
+    compile 'org.springframework:spring-web:4.1.3.RELEASE'
+    compile 'org.springframework:spring-core:4.1.3.RELEASE'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.8.5'
+    compile 'org.apache.httpcomponents:httpclient:4.3.1'
+    compile 'org.springframework:spring-web:4.1.3.RELEASE'
+    compile 'org.springframework:spring-core:4.1.3.RELEASE'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.8.5'
+}
+
+task compile << {
+    println 'We are doing the compile.'
+}
