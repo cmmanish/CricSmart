@@ -10,7 +10,7 @@ public class TestScorecard {
     @Test
     public void TestScoreboardDetails0() {
 
-        String resultJSONString = Scorecard.getInstance().getScoreboardDetailsForMatch("186881");
+        String resultJSONString = Scorecard.getInstance().getScoreboardDetailsForMatch("11985");
         Scorecard.getInstance().parseJSON(resultJSONString);
 
     }
